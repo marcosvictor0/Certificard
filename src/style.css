@@ -1,0 +1,78 @@
+body {
+  background-color: rgb(103, 58, 183);
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+section {
+  -webkit-box-shadow: 5px 5px 50px 8px rgba(0,0,0,0.59); 
+  box-shadow: 5px 5px 50px 8px rgba(0,0,0,0.59);
+  /* so vai funcionar o margin-left e o - right se o display for block.*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  margin-top: 100px;
+  background-color: white;
+  padding: 15px;
+  border: 2px solid black;
+  margin-bottom: 100px;
+  border-radius: 5px;
+  box-shadow: ;
+}
+
+section h1 {
+  text-align: center;
+  font-size: 20px;
+}
+
+header {
+  background-image: url("https://th.bing.com/th/id/R51130ba37c431907baca777e9eee68dc?rik=oouRcogqYWtbGg&riu=http%3a%2f%2fcdn3.dualshockers.com%2fwp-content%2fuploads%2f2016%2f03%2f871597-pokemon-wallpaper.jpg&ehk=XIh1SxhgzfkOCGLqsM9MG2ZAuesHutf6WjYNUY4n%2fR4%3d&risl=&pid=ImgRaw");
+  background-size: cover;
+  height: 80px;
+  border-radius: 5px;
+}
+
+.div1 {
+  padding: 15px;
+  /*Propriedade visual: valor */
+  border: 1px solid black;
+  background-color: rgba(186, 195, 214, 0.5);
+  border-radius: 5px; 
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  /* propriedade para deslocar um elemento pra cima,baixo lado ou outro é transform*/
+  transform: translateY(-50%);
+  border: 7px solid white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  font-weight: 900;
+  transition-duration: 0.4s;
+}
+
+.divredes {
+  padding: 0px 0px 0px 15px;
+  border: 1px solid black;
+  background-color: rgba(186, 195, 214, 0.5);
+  border-radius: 5px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 25pt;
+}
+
+.divredes a :hover {
+  transform: scale(1.10)
+}
